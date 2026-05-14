@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PixelPeek</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <div>
+          <h1>PixelPeek</h1>
+          <p>Instant image dimensions</p>
+        </div>
+        <label class="switch" title="Enable PixelPeek">
+          <input id="enabled" type="checkbox">
+          <span aria-hidden="true"></span>
+        </label>
+      </header>
+
+      <section class="settings" aria-label="PixelPeek settings">
+        <label class="option">
+          <input id="showNatural" type="checkbox">
+          <span>
+            <strong>Natural size</strong>
+            <small>Original image pixels</small>
+          </span>
+        </label>
+
+        <label class="option">
+          <input id="showRendered" type="checkbox">
+          <span>
+            <strong>Rendered size</strong>
+            <small>Size shown on the page</small>
+          </span>
+        </label>
+
+        <label class="option">
+          <input id="showBackgrounds" type="checkbox">
+          <span>
+            <strong>Background images</strong>
+            <small>Detect CSS backgrounds</small>
+          </span>
+        </label>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
