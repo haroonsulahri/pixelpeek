@@ -38,23 +38,21 @@ Chrome blocks extensions on internal pages like `chrome://extensions`, `chrome:/
 
 ```text
 pixelpeek/
-├── icons/
-│   ├── icon-16.png
-│   ├── icon-32.png
-│   ├── icon-48.png
-│   ├── icon-128.png
-│   └── icon-source.svg
-├── docs/
-│   └── GITHUB_PUBLISHING.md
-├── content.js
-├── manifest.json
-├── popup.css
-├── popup.html
-├── popup.js
-├── CHANGELOG.md
-├── LICENSE
-├── PRIVACY.md
-└── README.md
+icons/
+  icon-16.png
+  icon-32.png
+  icon-48.png
+  icon-128.png
+  icon-source.svg
+content.js
+manifest.json
+popup.css
+popup.html
+popup.js
+CHANGELOG.md
+LICENSE
+PRIVACY.md
+README.md
 ```
 
 ## Development
