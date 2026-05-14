@@ -2,6 +2,8 @@
 
 PixelPeek is a lightweight Chrome extension that shows image dimensions when you hover over images on any webpage.
 
+![PixelPeek promotional preview](assets/pixelpeek-promo.png)
+
 It is built for developers, designers, SEO specialists, and eCommerce teams who need to quickly inspect image sizes without opening DevTools.
 
 ## Features
@@ -38,6 +40,8 @@ Chrome blocks extensions on internal pages like `chrome://extensions`, `chrome:/
 
 ```text
 pixelpeek/
+assets/
+  pixelpeek-promo.png
 icons/
   icon-16.png
   icon-32.png
